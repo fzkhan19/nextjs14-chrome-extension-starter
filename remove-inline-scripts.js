@@ -1,8 +1,8 @@
 // https://github.com/vercel/next.js/discussions/54152#discussioncomment-7316916
 
-const { resolve } = require('path');
-const { createHash } = require('crypto');
-const { readFileSync, writeFileSync } = require('fs');
+const { resolve } = require('node:path');
+const { createHash } = require('node:crypto');
+const { readFileSync, writeFileSync } = require('node:fs');
 const { globSync } = require('glob');
 
 process.env.NODE_ENV = 'production';

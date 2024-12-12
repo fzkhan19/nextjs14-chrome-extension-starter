@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react';
 
-import styles from './page.module.css';
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -13,5 +12,5 @@ export default function Home() {
     return null; // return this null to avoid hydration errors
   }
 
-  return <main className={styles.main}>NextJS extension starter</main>;
+  return <main >NextJS extension starter</main>;
 }

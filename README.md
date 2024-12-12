@@ -1,35 +1,35 @@
-# NextJS Chrome Extension Project Starter
+# NextJS 14 + Tailwind CSS Chrome Extension Project Starter
 
 ## Description
 
-Starter boilerplate for a chrome extension using Next.js (App router), TypeScript, ESLint and Stylelint.
+Starter boilerplate for a chrome extension using Next.js (App router), TypeScript, ESLint, Stylelint, and Tailwind CSS.
 
 ## Installation
 
 1. Clone this repository
 
-2. Install the dependencies using npm:
-   ```
-   npm i
-   ```
+2. Install the dependencies using pnpm:
+   
+   pnpm install
+   
 
 ## Usage
 
 Run the project locally:
 
-```
-npm run dev
-```
+
+pnpm run dev
+
 
 ## Build and Add To Chrome
 
 1. Build the project:
 
-```
-npm run build
-```
 
-`This will make a static build of the project and export it to 'out/' folder`
+pnpm run build
+
+
+`This will make a static build of the project and export it to 'out/' folder. There are two scripts in package.json: one for mac/linux based systems and another for windows. Use 'pnpm run build' for mac/linux and 'pnpm run build:win' for windows.`
 
 2. Open Google Chrome and go to chrome://extensions.
 
